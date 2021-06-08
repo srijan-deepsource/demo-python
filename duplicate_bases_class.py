@@ -11,7 +11,7 @@ class BaseOne:
         self.base_one = 2
 
 
-class ChildAnother(Base, BaseOne, Base, BaseOne, abc.ABC, abc.ABC):
+class ChildAnother(Base, BaseOne, abc.ABC):
     """Some Child class"""
 
 
