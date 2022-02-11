@@ -1,9 +1,9 @@
-import random
-import pdb
-import sys as sys
-import os
-import subprocess
 import abc
+import os
+import pdb
+import random
+import subprocess
+import sys as sys
 
 # from django.db.models.expressions import RawSQL
 
@@ -125,8 +125,8 @@ if __name__ == "__main__":
         if has_truthy:
             break
 
+
 def foo_bar():
     """Print FooBar!"""
-    
-    print("FooBar")
 
+    print("FooBar")
