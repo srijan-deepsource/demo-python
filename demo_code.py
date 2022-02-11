@@ -124,3 +124,9 @@ if __name__ == "__main__":
         has_truthy = True if args[i] else False
         if has_truthy:
             break
+
+def foo_bar():
+    """Print FooBar!"""
+    
+    print("FooBar")
+
