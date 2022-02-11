@@ -13,6 +13,10 @@ enabled = true
 name = "black"
 enabled = true
 
+[[transformers]]
+name = "isort"
+enabled = true
+
 [[analyzers]]
 name = "test-coverage"
 enabled = true
