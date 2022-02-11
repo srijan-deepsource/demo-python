@@ -128,5 +128,4 @@ if __name__ == "__main__":
 
 def foo_bar():
     """Print FooBar!"""
-
     print("FooBar")
