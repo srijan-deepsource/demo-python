@@ -5,7 +5,8 @@ def test_random_number_generator():
     """Test random number generator."""
     assert RandomNumberGenerator().get_number()
 
-    if False:
-        assert "Dead Code!"
-        print("Gotcha!")
-        print("Gang gang!")
+    x = "Some Const!"
+
+    if x is None:
+        assert x
+        assert  x + "Gang Gang!"
