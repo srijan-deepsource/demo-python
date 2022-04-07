@@ -9,4 +9,4 @@ def test_random_number_generator():
 
     if x is None:
         assert x
-        assert  x + "Gang Gang!"
+        assert x + "Gang Gang!"
