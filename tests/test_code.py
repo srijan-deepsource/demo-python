@@ -7,5 +7,5 @@ def test_random_number_generator():
 
     if False:
         assert "Dead Code!"
-        print ("Gotcha!")
+        print("Gotcha!")
         print("Gang gang!")
