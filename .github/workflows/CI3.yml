@@ -20,7 +20,8 @@ jobs:
         fetch-depth: 1
         ref: ${{ github.event.pull_request.head.sha }}
 
+
     - name: Report test coverage to DeepSource
       run: |
         curl https://deepsource.io/cli | sh
-        ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage1.lcov
+        ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage3.lcov
