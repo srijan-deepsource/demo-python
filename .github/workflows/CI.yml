@@ -35,3 +35,6 @@ jobs:
       run: |
         curl https://deepsource.io/cli | sh
         ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.lcov
+
+        ./bin/deepsource report --analyzer test-coverage --key java --value-file artifacts/jacocoReport
+        ./bin/deepsource report --analyzer test-coverage --key javascript --value-file artifacts/cobertura.xml
