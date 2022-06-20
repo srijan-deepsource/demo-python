@@ -1,0 +1,5 @@
+mode: set
+/home/s/everything_test/go-exp/new.go:3.12,5.2 1 X
+/home/s/everything_test/go-exp/main.go:8.36,12.20 4 6
+/home/s/everything_test/go-exp/main.go:15.5,15.18 1 6
+/home/s/everything_test/go-exp/main.go:12.20,14.6 1 0
