@@ -38,4 +38,4 @@ jobs:
 
         ./bin/deepsource report --analyzer test-coverage --key java --value-file artifacts/jacocoReport
         ./bin/deepsource report --analyzer test-coverage --key javascript --value-file artifacts/cobertura.xml
-        ./bin/deepsource report --analyzer test-coverage --key javascript --value-file artifacts/gocover.out
+        ./bin/deepsource report --analyzer test-coverage --key javascript --value-file artifacts/go_test.out
