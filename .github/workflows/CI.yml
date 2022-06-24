@@ -11,7 +11,7 @@ jobs:
     runs-on: [ubuntu-latest]
 
     env:
-        DEEPSOURCE_DSN: ${{ secrets.ANARCHY_DSN }}
+        DEEPSOURCE_DSN: ${{ secrets.ENTERPRISE_DSN }}
 
     steps:
     - name: Checkout code
