@@ -1,4 +1,5 @@
 from demo_code import RandomNumberGenerator
+import assignment
 
 
 def test_random_number_generator():
