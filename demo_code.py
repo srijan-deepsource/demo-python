@@ -117,6 +117,13 @@ def chained_comparison():
     c = 3
     return a < b and b < c
 
+def this_should_be_raised_in_issues():
+    a = 1
+    b = 2
+    c = 3
+    print(a, b, c)
+    return a < b and b < c
+
 
 if __name__ == "__main__":
     args = ["--disable", "all"]
