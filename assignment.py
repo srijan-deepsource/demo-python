@@ -6,6 +6,11 @@ def foo():
     """jndokmf"""
     if 1 > 2:
         return
-    
+
     print("something")
     print("bleh")
+
+
+def tested_foo():
+    """Bleh."""
+    return 5
