@@ -1,0 +1,16 @@
+version: '2.1'
+orbs:
+  deepsource: deepsource/test-coverage
+jobs:
+  run-test:
+    docker:
+      - image: 'cimg/python:3.10.0'
+    steps:
+      - checkout
+      - run: pip install pytest-cov django
+      - run: pytest --cov --cov-report=xml
+      - deepsource/report:
+          coverage-file: ./coverage.xml
+          dsn: '${DEEPSOURCE_DSN}'
+          key: python
+workflows: null
