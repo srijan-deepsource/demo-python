@@ -4,7 +4,7 @@
 line-rate="1.00" lines-valid="6380" lines-covered="6351" branches-valid="52" branches-covered="52" branch-rate="1.00" complexity="0" version="1.0" timestamp="1662026649129">
     <sources>
         <source>--source</source>
-        <source>/home/jenkins/agent/workspace/orgname_payments_PR-983/src/main/scala</source>
+        <source>/home/runner/work/demo-python/demo-python/src/main/scala</source>
     </sources>
     <packages>
         <package
