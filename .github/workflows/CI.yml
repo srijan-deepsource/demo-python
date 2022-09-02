@@ -36,6 +36,6 @@ jobs:
         echo "$PWD"
         ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.xml
         sleep 2
-        ./bin/deepsource report --analyzer test-coverage --key scala --value-file ./cb.xml
-        sleep 2
         ./bin/deepsource report --analyzer test-coverage --key ruby --value-file ./simplecov.json
+        sleep 2
+        ./bin/deepsource report --analyzer test-coverage --key scala --value-file ./cb.xml
