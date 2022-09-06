@@ -9,7 +9,7 @@ def test_random_number_generator():
     if False:
         assert "Dead Code!"
         print("Gotcha!")
-
+        print ("Gotcha!")
 
 def test_partial_code():
     """Some test to check the new metric."""
