@@ -13,4 +13,13 @@ def foo():
 
 def tested_foo():
     """Bleh."""
+    # tested new lines
+    print("New line 1")
+    print("New line 2")
+    print("New line 3")
     return 5
+
+def untested_foo():
+    print("New line 4")
+    print("New line 5")
+    print("New line 6")
