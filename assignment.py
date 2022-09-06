@@ -2,6 +2,7 @@ FIRST = [1, 2, 3]
 SECOND = [1, 2, 3]
 p = [1, 2, 3]
 
+
 def foo():
     """jndokmf"""
     if 1 > 2:
@@ -19,6 +20,7 @@ def tested_foo():
     print("New line 3")
     print("New line 7")
     return 5
+
 
 def untested_foo():
     print("New line 4")
