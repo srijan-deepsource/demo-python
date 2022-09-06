@@ -11,7 +11,7 @@ jobs:
     runs-on: [ubuntu-latest]
 
     env:
-        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
+        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DEV_DSN }}
 
     steps:
     - name: Checkout code
@@ -34,3 +34,4 @@ jobs:
       run: |
         curl https://deepsource.io/cli | sh
         ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.xml
+        ./bin/deepsource report --analyzer test-coverage --key javascript --value-file ./coverage.xml
