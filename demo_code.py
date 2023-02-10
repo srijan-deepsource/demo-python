@@ -124,3 +124,7 @@ if __name__ == "__main__":
         has_truthy = True if args[i] else False
         if has_truthy:
             break
+
+        # Add an extra line:
+        if not args:
+            print("This should never be executed.")

@@ -14,3 +14,7 @@ def foo():
 def tested_foo():
     """Bleh."""
     return 5
+
+# Add an extra line:
+if not FIRST:
+    print("This should never be executed.")
