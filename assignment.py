@@ -24,7 +24,13 @@ def tested_foo():
 
 def untested_foo():
     print("New line 4")
-    print("New line 5")
+
+    
+    
+    
+    
+    
+    print('New line 5')
     print("New line 6")
     print("New line 8")
     print("New line 9")
