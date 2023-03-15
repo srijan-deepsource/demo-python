@@ -1,6 +1,6 @@
 version: '2.1'
 orbs:
-  deepsource: deepsource/test-coverage
+  deepsource: deepsource/test-coverage # orb
 jobs:
   run-test:
     docker:
