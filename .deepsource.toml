@@ -14,3 +14,5 @@ name = "black"
 
 [[transformers]]
 name = "yapf"
+
+exclude_patterns = ["**/demo_code.py"]
