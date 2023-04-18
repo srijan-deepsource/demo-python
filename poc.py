@@ -3,7 +3,7 @@ import os
 x = [i for i in range(10)]
 
 
-def food(x, y):
+def fooood(x, y):
     if x > y:
         print(x)
 
