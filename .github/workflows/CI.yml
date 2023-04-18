@@ -37,8 +37,9 @@ jobs:
 
     - name: Run JS tests
       run: |
-        npm install yarn
+        npm install -g yarn
         cd javascript
+        yarn install
         yarn test
 
     - name: Report test coverage to DeepSource
