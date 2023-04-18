@@ -3,7 +3,7 @@ import os
 x = [i for i in range(10)]
 
 
-def fooood(x, y):
+def fooood(x, y, _z=None):
     if x > y:
         print(x)
 
