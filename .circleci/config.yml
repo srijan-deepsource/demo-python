@@ -13,4 +13,15 @@ jobs:
           coverage-file: ./coverage.xml
           dsn: '${DEEPSOURCE_DSN}'
           key: python
+  run-js-test:
+    docker:
+      - image: 'cimg/node:19.9.0'
+    steps:
+      - checkout
+      - run: npm install yarn
+      - run: yarn test
+      - deepsource/report:
+          coverage-file: ./javascript/cobertura-coverage.xml
+          dsn: '${DEEPSOURCE_DSN}'
+          key: javascript
 workflows: null
