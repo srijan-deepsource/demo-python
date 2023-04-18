@@ -19,7 +19,7 @@ jobs:
     steps:
       - checkout
       - run: npm install yarn
-      - run: yarn test
+      - run: cd javascript && yarn test
       - deepsource/report:
           coverage-file: ./javascript/cobertura-coverage.xml
           dsn: '${DEEPSOURCE_DSN}'
