@@ -34,4 +34,6 @@ jobs:
       run: |
         curl https://deepsource.io/cli | sh
         ./bin/deepsource report --analyzer test-coverage --key python --value-file ./coverage.xml
-        ./bin/deepsource report --analyzer test-coverage --key javascript --value-file ./coverage.xml
+        ./bin/deepsource report --analyzer test-coverage --key kotlin --value-file ./coverage.xml
+        ./bin/deepsource report --analyzer test-coverage --key swift --value-file ./coverage.xml
+        ./bin/deepsource report --analyzer test-coverage --key dart --value-file ./coverage.xml
