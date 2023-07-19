@@ -1,0 +1,3 @@
+requests
+babi
+pillow
