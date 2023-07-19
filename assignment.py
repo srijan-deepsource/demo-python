@@ -1,7 +1,5 @@
-import os
-import sys
 
-exit(0)
+sys.exit(0)
 
 FIRST = [1, 2, 3]
 SECOND = [1, 2, 3]
