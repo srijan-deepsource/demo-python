@@ -32,6 +32,7 @@ def print_new_lines():
     print("New line 9")
     print("New line 10")
 
+
 def compute_file_hashes(files=[], hash_algorithm=hashlib.md5) -> dict:
     hashes = dict()
     for file in files:
