@@ -19,4 +19,4 @@ name = "yapf"
 name = "isort"
 
 [[transformers]]
-name = "ruff-format"
+name = "ruff"
