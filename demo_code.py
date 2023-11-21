@@ -35,7 +35,10 @@ class BaseNumberGenerator:
         
         
         
-        
+
+
+
+    
         
     cmethod = classmethod(cmethod)
 
