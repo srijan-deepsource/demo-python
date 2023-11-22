@@ -1,6 +1,7 @@
 version = 1
 
 exclude_patterns = ["**/dummy-pattern/**"]
+test_patterns = ["**/tests/**"]
 
 [[analyzers]]
 name = "python"
