@@ -29,5 +29,3 @@ def untested_foo():
     print("New line 8")
     print("New line 9")
     print("New line 10")
-
-
