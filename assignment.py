@@ -1,3 +1,5 @@
+import hashlib
+
 FIRST = [1, 2, 3]
 SECOND = [1, 2, 3]
 p = [1, 2, 3]
@@ -22,10 +24,20 @@ def tested_foo():
     return 5
 
 
-def untested_foo():
+def print_new_lines():
     print("New line 4")
     print("New line 5")
     print("New line 6")
     print("New line 8")
     print("New line 9")
     print("New line 10")
+
+
+def compute_file_hashes(files=[], hash_algorithm=hashlib.md5) -> dict:
+    hashes = dict()
+    for file in files:
+        f = open(file)
+        hashed = hash_algorithm(f.read())
+        hashes[file] = hashed
+
+    return hashes
